@@ -2,7 +2,12 @@
     padding: .5rem;
     margin: 0px;
     text-align: center;
-    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 table {
@@ -39,4 +44,37 @@ td {
 
 .OTM {
     background-color: lightcoral;
+}
+
+
+.ATMW {
+    color: white;
+    border-top: 20px solid black;
+    background-color: #555;
+}
+
+.ITMW {
+    color: white;
+    background-color: rgb(42, 6, 42);
+}
+
+.OTMW {
+    color: white;
+    background-color: #555;
+}
+
+.sell {
+    color: red;
+}
+
+.buy {
+    color: lightgreen;
+}
+
+.b {
+    font-weight: bold;
+}
+
+textarea     {
+    width: 100%;
 }
